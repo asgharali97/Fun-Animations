@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { IconChevronRight, IconX } from "@tabler/icons-react";
-import { motion } from "motion/react";
+import { motion, stagger } from "motion/react";
 
 interface cardType {
   id: number;
@@ -68,7 +68,7 @@ const Card = () => {
               layout:{duration: 0.4},
               ease: "easeInOut",
             }}
-            className="w-sm h-100 rounded-2xl bg-gray-100 border border-[#bcbfc6] relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+            className="w-sm h-100 rounded-2xl bg-gray-100 border border-[#bcbfc6] relative shadow-[0px_1px_#ffffff12_inset,0px_1px_4px_#bab7b7ef]"
           >
             <div className="bg-gray-200 w-full border-b border-neutral-300 py-2 flex justify-center items-center rounded-t-2xl relative">
               <h4 className="text-lg text-neutral-600 font-medium">
@@ -131,10 +131,6 @@ const Card = () => {
                   <motion.img
                     layoutId={`img-${card.id}`}
                     layout
-                    transition={{
-                      duration: 0.4,
-                      ease: "easeInOut",
-                    }}
                     src={card.img}
                     className="h-18 w-18 rounded-full border-3 border-white"
                     alt={card.name}
