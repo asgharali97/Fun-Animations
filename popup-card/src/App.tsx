@@ -1,14 +1,13 @@
-import React from 'react'
-import PopupCard from './components/PopupCard'
-
+import React from "react";
+import Glassy from './components/Glassy'
 const App = () => {
   return (
     <>
-      <div className="w-full h-screen bg-neutral-200 text-black flex justify-center items-center geist">
-          <PopupCard/>
+      <div className="w-full h-screen bg-neutral-100 text-black flex justify-center items-center geist">
+        <Glassy/>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
