@@ -6,8 +6,8 @@ import youtube from "../../../assets/youtube.svg";
 import google from "../../../assets/google.svg";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import FilterSvg from "../../FilterSvg";
-import { cn } from "../../../utils/cn";
+import FilterSvg from "./FilterSvg";
+import { cn } from "../../../../utils/cn";
 
 interface state {
   icon: string | React.ReactElement<React.SVGProps<SVGSVGElement>>;

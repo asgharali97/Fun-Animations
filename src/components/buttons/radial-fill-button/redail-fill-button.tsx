@@ -3,7 +3,7 @@ import { animate } from "motion";
 import { motion } from "motion/react";
 import { useState } from "react";
 
-const Button = () => {
+const redailFillButton = () => {
   const buttonVaritent = {
     initial: {
       opacity: 0,
@@ -102,4 +102,4 @@ const Button = () => {
   );
 };
 
-export default Button;
+export default redailFillButton;

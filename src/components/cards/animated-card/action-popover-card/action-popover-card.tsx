@@ -8,7 +8,7 @@ import goal from "../../../assets/goal.svg";
 import bolt from "../../../assets/bolt.svg";
 import calender from "../../../assets/calender.svg";
 
-const PopupCard = () => {
+const ActionPopoverCard = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -133,4 +133,4 @@ const PopupCard = () => {
   );
 };
 
-export default PopupCard;
+export default ActionPopoverCard;

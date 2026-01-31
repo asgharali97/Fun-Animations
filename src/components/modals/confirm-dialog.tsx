@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from 'motion/react';
 
-const ConfirmMDailog = () => {
+const ConfirmDailog = () => {
 
   const [open, setOpen] = useState(true)
 
@@ -64,4 +64,4 @@ const ConfirmMDailog = () => {
   );
 };
 
-export default ConfirmMDailog;
+export default ConfirmDailog;

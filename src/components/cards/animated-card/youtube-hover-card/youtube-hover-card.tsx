@@ -43,7 +43,7 @@ const videos = [
 ];
 
 
-const App = () => {
+const YoutubeHoverCard = () => {
   const cardsRef = useRef([]);
   const fac = new FastAverageColor();
   const defaultTint = "rgba(255,255,255,0.2)"; 
@@ -179,4 +179,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default YoutubeHoverCard;

@@ -5,7 +5,7 @@ import {
   MessageCircleMore,
 } from "lucide-react";
 
-const GridCard = () => {
+const DetailGridCard = () => {
   return (
     <>
       <div className="w-md h-[500px] bg-white rounded-4xl p-1 shadow-m">
@@ -73,4 +73,4 @@ const GridCard = () => {
   );
 };
 
-export default GridCard;
+export default DetailGridCard;
